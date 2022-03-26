@@ -6,7 +6,9 @@
   "author": "engbaher77 <eng.baher77@gmail.com>",
   "private": true,
   "scripts": {
-    "test": "echo \"No test specified\" && exit 0"
+    "test": "echo \"No test specified\" && exit 0",
+    "prepare": "npm run snyk-protect",
+    "snyk-protect": "snyk-protect"
   },
   "dependencies": {
     "@quasar/extras": "^1.0.0",
@@ -32,7 +34,8 @@
     "vue-videojs7": "^1.0.2",
     "vue-zoomer": "^0.3.6",
     "vuelidate": "^0.7.5",
-    "vuex-persistedstate": "^4.0.0-beta.3"
+    "vuex-persistedstate": "^4.0.0-beta.3",
+    "@snyk/protect": "latest"
   },
   "devDependencies": {
     "@quasar/app": "^2.0.0",
@@ -60,5 +63,6 @@
     "node": ">= 10.18.1",
     "npm": ">= 6.13.4",
     "yarn": ">= 1.21.1"
-  }
+  },
+  "snyk": true
 }
