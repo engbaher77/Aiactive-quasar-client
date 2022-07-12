@@ -23,7 +23,7 @@
     "vue-drag-resize": "^1.4.2",
     "vue-grid-layout": "^2.3.12",
     "vue-html2pdf": "^1.8.0",
-    "vue-i18n": "^8.22.2",
+    "vue-i18n": "^8.27.2",
     "vue-load-image": "^0.1.11",
     "vue-resize-directive": "^1.2.0",
     "vue-smooth-dnd": "^0.8.1",
